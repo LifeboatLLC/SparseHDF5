@@ -1,6 +1,6 @@
 # SparseHDF5
 
-Lifeboat, LLC. was awarded DOE SBIR Phase I grant to design extentions to the HDF5 software to support efficient access and storage for sparse data. This repository contains the design documents for the HDF5 File Format extensions and public APIs to support the feature. 
+Lifeboat, LLC. was awarded DOE SBIR Phase I and Phase II grants to design extentions to the HDF5 software to support efficient access and storage for sparse data. This repository contains the design documents for the HDF5 File Format extensions and public APIs to support the feature. 
 
 Sparse data is common in many scientific disciplines and experiments. Several examples are discussed in “Sparse Data Management in HDF5” [1], including High Energy Physics, Neutron and X-ray Scattering, Mass Spectrometry and Compressive Sensing experiments. In those use cases, only 0.1% to 10% of gathered data is of interest. HDF5, due to its proven track record and flexibility, remains the data format of choice. As the amount of data produced continues to grow due to higher instrument and detector resolution and higher sampling rates, there is a clear demand for efficient management of sparse data in HDF5. Adding support for sparse data will significantly simplify data processing software and widen adoption of HDF5. 
 
